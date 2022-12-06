@@ -1,0 +1,172 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color : #826d8c;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h2 {
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  color: red;
+  font-family: 'Shrikhand', cursive;
+  font-weight: bold;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 70%;
+  margin: 5% 30% 5% 20%;
+  /* z-index: -1; */
+  position: absolute;
+  /*mix-blend-mode: multiply;*/
+  border-radius: 50%;
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #edd26f;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #8fdbf2;
+}
+
+/* Testimonials Section */
+#testimonials, #press {
+
+  text-align: center;
+  background-color: #826d8c;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  /* width: 10%; */
+  border-radius: 50%;
+  margin: 10px;
+  object-fit: cover;
+  width: 130px;
+  height: 130px;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-header {
+  color: black;
+}
+
+.pricing-coloumn {
+  padding: 3% 2%;
+}
+
+/* Call to Action Section */
+#cta {
+  background-color: #826d8c;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Media Queries */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
